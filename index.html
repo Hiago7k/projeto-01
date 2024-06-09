@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projetox-devs- semana do zero comprador contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/stilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <style>
+        .cabecalho {
+            text-align: center; /* Centraliza o conteúdo */
+        }
+    </style>
+</head>
+<body>   
+   <header class="cabecalho">
+        <div>
+            <h1>X-Devs</h1>
+        </div>
+   </header>
+   <main class="personagens-slider">
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/css/imagens/seta.png" alt="seta para voltar">
+    </button>
+
+    <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+            <h2>Seu Clope</h2>
+            <img class="imagen-personagem" src="./src/css/imagens/seuclope.png" alt="Seu Clope">
+            <div class="descricao">
+                <h3 class="titulo">Descricao</h3>
+                <p class="texto">Seu Clope é conhecido por sua firme convicção de que as novas linguagens de programação são apenas modismos passageiros e desnecessários, e ele se recusa a adotar qualquer uma delas, alegando que nada pode superar a robustez e a eficácia do COBOL para resolver problemas reais. Seu estilo de trabalho é metódico e preciso, e ele valoriza acima de tudo a estabilidade e a confiabilidade em seu código.</p>
+            </div>
+        </li>
+
+        <!-- Outros cartões aqui -->
+
+        <li class="cartao fundo-6">
+            <div class="informacoes">
+                <h2 class="nome">Professor Cafeze</h2>
+            </div>
+
+            <div class="container-imagem">
+                <img class="imagem-personagem" src="./src/css/imagens/professor-cafeze.png" alt="Professor Cafeze" />
+            </div>
+
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Líder dos X-devs é um mentor para desenvolvedores iniciantes, guiando-os com sua mente excepcional e uma xícara de café sempre à mão. Ele possui habilidades telepáticas que lhe permitem transmitir conhecimento de programação diretamente para a mente dos novatos, acelerando sua aprendizagem.</p>
+            </div>
+        </li>
+    </ul>
+
+    <!-- Segunda seta para avançar -->
+    <button class="btn-seta btn-avancar" id="btn-avancar">
+        <img src="./src/css/imagens/seta.png" alt="seta para avançar">
+    </button>
+   </main>
+
+   <script src="./src/js/index.js"></script>
+</body>
+</html>
